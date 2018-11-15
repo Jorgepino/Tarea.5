@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ##a)
 
-```{r}
+```{r, echo=FALSE}
 #Pregunta 3
 
 library(ggplot2)
@@ -48,7 +48,7 @@ sesgob1 = c(means[[5]]-2.5, means[[6]]-2.5, means[[7]]-2.5, means[[8]]-2.5)
 
 ##b)
 
-```{r}
+```{r, echo=FALSE}
 
 #b)
 g1 <- ggplot(betas_df) +
@@ -81,7 +81,7 @@ grid.arrange(g1, g2, g3, g4, ncol = 2, nrow = 2, top = "Distribución Beta1")
 
 ##c)
 
-```{r}
+```{r, echo=FALSE}
 #c)
 
 reps = 10000
